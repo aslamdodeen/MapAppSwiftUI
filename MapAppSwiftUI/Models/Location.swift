@@ -11,8 +11,7 @@
 import Foundation
 import MapKit
 
-struct Location {
-    
+struct Location :Identifiable{
     var name:String
     var cityName:String
     var coordinates:CLLocationCoordinate2D
@@ -20,6 +19,9 @@ struct Location {
     var imageNames:[String]
     var link:String
 
+    var id: String {
+        name + cityName
+    }
     
     init(name: String, cityName: String, coordinates: CLLocationCoordinate2D, description: String,imageNames:[String],link:String) {
         self.name = name
