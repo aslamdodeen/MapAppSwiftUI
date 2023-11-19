@@ -6,21 +6,19 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct LocationsView: View {
     
     @EnvironmentObject private var vm:LocationsViewModel
     
-    
     var body: some View {
-        List {
-            ForEach(vm.locations) { location in
-                
-                Text(location.name)
-                    .font(.title2)
-            }
+        
+        ZStack {
+            Map(coordinateRegion: $vm.mapRegion)
         }
-        .navigationTitle("LocationsView")
+        .ignoresSafeArea()
+       
 
     }
 }
@@ -29,7 +27,6 @@ struct LocationsView: View {
     NavigationStack {
         LocationsView()
             .environmentObject(LocationsViewModel())
-            .navigationTitle("LocationsView")
     }
 
 }
