@@ -17,15 +17,28 @@ struct LocationsView: View {
         ZStack {
             Map(coordinateRegion: $vm.mapRegion)
                 .ignoresSafeArea()
-
+            
             VStack(spacing:0) {
                 header
-                .padding()
+                    .padding()
                 Spacer()
+                
+                ZStack {
+                    ForEach(vm.locations) { location in
+                        if vm.mapLocation == location {
+                            LocationPreviewView(location: location)
+                                .shadow(color: .black.opacity(0.3), radius: 21)
+                                .padding()
+                                .transition(.asymmetric(
+                                    insertion: .move(edge: .trailing),
+                                    removal: .move(edge: .leading)))
+                        }
+                    }
+                }
             }
         }
     }
-
+    
 }
 
 #Preview {
@@ -33,7 +46,7 @@ struct LocationsView: View {
         LocationsView()
             .environmentObject(LocationsViewModel())
     }
-
+    
 }
 
 
@@ -61,7 +74,7 @@ extension LocationsView {
                 }
             }
             if vm.showLocationList {
-                    LocationsListView()
+                LocationsListView()
             }
         }
         .background(.thickMaterial)
