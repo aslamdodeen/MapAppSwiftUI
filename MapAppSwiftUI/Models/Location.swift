@@ -11,7 +11,9 @@
 import Foundation
 import MapKit
 
-struct Location :Identifiable{
+struct Location :Identifiable,Equatable{
+    
+    
     var name:String
     var cityName:String
     var coordinates:CLLocationCoordinate2D
@@ -30,5 +32,9 @@ struct Location :Identifiable{
         self.description = description
         self.imageNames = imageNames
         self.link = link
+    }
+    
+    static func == (lhs: Location, rhs: Location) -> Bool {
+        lhs.id == rhs.id
     }
 }
