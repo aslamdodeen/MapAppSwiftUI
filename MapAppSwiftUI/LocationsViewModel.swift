@@ -28,6 +28,10 @@ class LocationsViewModel:ObservableObject {
     
     let mapSpan = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
     
+  // show location detail via sheet
+    
+    @Published var sheetLocation:Location? = nil
+    
     init() {
         let locations = LocationsDataService.locations
         self.locations = locations

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E0D39D82B0E5A170040B01B /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0D39D72B0E5A170040B01B /* LocationDetailView.swift */; };
 		9E1A75102B0BBD9C00BBA4F7 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A750F2B0BBD9C00BBA4F7 /* LocationPreviewView.swift */; };
 		9E3B65452B0A34850088F9A4 /* MapAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B65442B0A34850088F9A4 /* MapAppSwiftUIApp.swift */; };
 		9E3B654C2B0A34860088F9A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3B654B2B0A34860088F9A4 /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E0D39D72B0E5A170040B01B /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		9E1A750F2B0BBD9C00BBA4F7 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		9E3B65412B0A34850088F9A4 /* MapAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3B65442B0A34850088F9A4 /* MapAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				9E3E5F5C2B0A991E004F6295 /* LocationsListView.swift */,
 				9E1A750F2B0BBD9C00BBA4F7 /* LocationPreviewView.swift */,
 				9ECBDED12B0D335B0037076A /* LocationMapAnnotationView.swift */,
+				9E0D39D72B0E5A170040B01B /* LocationDetailView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				9E3B65452B0A34850088F9A4 /* MapAppSwiftUIApp.swift in Sources */,
 				9E3B655D2B0A5E8E0088F9A4 /* LocationsView.swift in Sources */,
+				9E0D39D82B0E5A170040B01B /* LocationDetailView.swift in Sources */,
 				9E3B65572B0A4AF50088F9A4 /* Location.swift in Sources */,
 				9E3E5F5D2B0A991E004F6295 /* LocationsListView.swift in Sources */,
 				9E1A75102B0BBD9C00BBA4F7 /* LocationPreviewView.swift in Sources */,
