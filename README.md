@@ -1,65 +1,15 @@
-# Taqasam
+## MapAPP
 
-### Screen Shots
+a sophisticated map application designed with SwiftUI, intricate animations, and structured under the MVVM architecture. This app is meticulously crafted to showcase real-world destinations in an immersive and engaging manner.
 
-![](https://github.com/othmansh0/markdown_testing/blob/3aa34f04dcd3fcfdfc8eb6edda759f5d48b348a6/First-GIFs.gif)
-![](https://github.com/othmansh0/markdown_testing/blob/3aa34f04dcd3fcfdfc8eb6edda759f5d48b348a6/Second-GIFs.gif)
+![MapSwiftUI](https://github.com/aslamdodeen/IOS-Portfolio/assets/5517052/4c307065-f92d-4d06-a2dd-d4acd8c0ab87)
+ [ Sourcs Code](https://github.com/aslamdodeen/MapAppSwiftUI)
 
----
+ **Technical Highlights:**
 
-### Table of Contents
-
-- [Description](#description)
-- [Important notes](#important-notes)
-- [Author Info](#author-info)
-
----
-
-## Description
-
-- Donate food by submitting a request with donation details such as food type, expiry date, and location and time for pick-up
-- Measure the impact of donations based on the weight of donated food, and display an interactive chart featuring key impact statistics
-- Reward users with points when donating food, which can be exchanged for incentives with one of our sharing partners
-- Display all available donations for **charities**, including donation details such as food type, expiration date, location, and pickup schedule
-- Displaying allocated charity donations with the option to contact the donor when needed and showing the donation location on the map
-- Ability to change the donation request status upon receipt
-- Display real-time statistics to relevant authorities and citizens about the quantity and sources of food waste
-- Display the responsible and supporting institutions for the application with web content  within the app
-
-
-#### Frameworks
-
-- SwiftUI
-- UIKit
-- UIViewControllerRepresentable
-- SFSafariViewController
-- Apple URL Schemes
-- Firebase
-- Core Location
-- UIActivityViewController
-- Core Animation
-- Async/Await
-- Codable
-- UserDefaults
-- MVVM design pattern
-
-
-
-## Important notes
-
-This is a completed teamwork project with the following roles:
-
-| Member Name      | Role                                               |
-|------------------|----------------------------------------------------|
-| Othman Shahrouri | SwiftUI and Swift(UIKit)                           |
-| Nedine Rafid     | UI and UX                                          |
-
-
----
-
-## Author Info
-
-- Twitter - [@othmansh0](https://twitter.com/othmansh0)
-- Website - [LinkedIn: Othman Shahrouri](https://linkedin.com/in/othmansh0)
-
-[Back To The Top](#Taqasam)
+-   **SwiftUI Integration:** Leveraging SwiftUI as the primary framework for app development ensures a responsive and visually appealing user interface, optimizing the user experience.
+  
+-   **MVVM Pattern:**  Employing the MVVM architecture pattern to enhance code maintainability and separation of concerns, resulting in a well-organized and scalable codebase.
+-   **Interactive Animations:** Implemented interactive animations with menu and view transitions featuring interactive animations, creating a visually captivating and enjoyable
+    
+-   **Destination Showcase:** MapAPP stands out by showcasing real-world destinations, offering users a curated and immersive exploration of various places.
